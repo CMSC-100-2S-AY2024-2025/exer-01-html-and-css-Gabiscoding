@@ -1,0 +1,21 @@
+.Navbar{
+    position:fixed;
+    background-color: rgb(136, 60, 60);
+    height: 50px;
+    width: 100%;
+    top:0px;
+    left:0px;
+    z-index: 3;
+}
+.Banner{
+    position:absolute;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(51, 51, 51);
+    justify-content: flex-start;
+    height:200px;
+    width:100%;
+    top:0%;
+    left: 0%;
+    right:0%;
+}
