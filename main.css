@@ -24,6 +24,14 @@ body{
     align-items: center;
 }
 
+.sLogo{
+    position:absolute;
+    width: 30px;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 7px;
+}
+
 .Navbar{
     position:fixed;
     background-color: rgb(33, 33, 33);
@@ -231,23 +239,147 @@ body{
     margin-bottom: 0%;
 }
 
+.skill-bar{
+    height: 10px;
+    width: 500px;
+    background-color: rgb(251, 245, 229);
+}
+
+.container-2{
+    margin-bottom: 0%;
+    margin-left: 0%;
+    color: rgb(251, 245, 229);
+    font-size: 15px;
+    user-select: none;
+    font-family: BinaryNeue;
+    border-left: 2px solid rgb(251, 245, 229);
+    padding-left: 10px;
+}
+
 .Skills-me{
-    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    margin-top:1%;
+    background-image: url(resource/img/Banner-2.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.Skills{
+    margin-top:0%;
+    margin-bottom: 0%;
+    color: rgb(251, 245, 229);
+    font-size: 50px;
+    user-select: none;
+    padding-left: 10px;
+    font-family:DealerplateCalifornia;
+}
+
+.techno{
+    border-left: 2px solid rgb(251, 245, 229);
+    padding-left: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: smaller;
+}
+
+.progress-bar-python{
+    position: absolute;
+    height: 5px;
+    width: 300px;
+    margin:3px;
+    background-color: palevioletred;
+}
+
+.progress-bar-C{
+    position: absolute;
+    height: 5px;
+    width: 380px;
+    margin:3px;
+    background-color: palevioletred;
+}
+
+.progress-bar-JavaScript{
+    position: absolute;
+    height: 5px;
+    width: 200px;
+    margin:3px;
+    background-color: palevioletred;
+}
+
+.progress-bar-java{
+    position: absolute;
+    height: 5px;
+    width: 220px;
+    margin:3px;
+    background-color: palevioletred;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    width:700px;
+}
+
+.hi{
+    margin-top: 0%;
+    text-decoration: underline;
+    color: rgb(251, 245, 229);
+    font-size: 50px;
+    user-select: none;
+    font-family:DealerplateCalifornia;
+}
+
+.plug{
+    margin-top: 0%;
+    color: rgb(251, 245, 229);
+    font-size: 30px;
+    align-content:center;
+    user-select: none;
+    font-family:DealerplateCalifornia;
+    font-weight: 100;
+}
+
+.nickname{
+    display: block;
+    width: 700px;
+    color: rgb(251, 245, 229);
+    font-size: 200px;
+    user-select: none;
+    font-family:DealerplateCalifornia;
+    font-weight: 100;
     padding: 0%;
     margin: 0%;
-    background-image: url(resource/img/skills.gif);
-    background-color: rgb(33, 33, 33);
-    background-position: center;
-    background-attachment:scroll;
-    background-repeat:repeat;
-    height:fit-content;
-    width:100%;
-    top:0%;
-    left: 0%;
-    right:0%;
-
 }
 
 .footer{
+    margin-top: 1%;
     position: relative;
+    padding: 1rem;
+    display: flex;
+    justify-content:left;
+    background-color: rgb(228, 73, 163);
 }
+
+#Branding-foot{
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: auto;
+    margin: 0%;
+
+}
+
+.personal-cont{
+    padding: 1rem;
+    display: block;
+    align-content: baseline;
+    font-family: DealerplateCalifornia;
+    color:rgb(251, 245, 229);
+    font-weight: 100;
+}
+
