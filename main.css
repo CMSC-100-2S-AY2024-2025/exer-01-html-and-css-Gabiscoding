@@ -8,6 +8,16 @@
     src: url(resource/fonts/DealerplateCalifornia.otf);
 }
 
+@font-face {
+    font-family: BinaryNeue;
+    src: url(resource/fonts/LTBinaryNeue.ttf);
+}
+
+body{
+    background-color: rgb(33, 33, 33);
+}
+
+
 .container-1{
     display: inline;
     justify-content: center;
@@ -84,4 +94,61 @@
     align-self: start;
     background-size: cover;
 
+}
+
+.Magpili-scroll{
+    display: flex;
+    position:relative;
+    top: 390px;
+    border-block: 1px solid;
+    overflow: hidden;
+    padding-block: 4px;
+    font-size: 15px;
+    user-select: none;
+    font-family: BinaryNeue;
+    gap: 2rem;
+    background-color: rgb(251, 245, 229);
+
+    --gap: 20px;
+    gap: var(--gap);
+}
+
+.Magpili-scroll ul{
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 0%;
+    margin-top: 3px;
+    gap: var(--gap);
+
+    animation: scroll 20s linear infinite;
+    /* background-color: blueviolet; */
+}
+
+.Magpili-scroll:hover ul{
+    animation-play-state: paused;
+}
+
+@keyframes scroll{
+    to{
+        transform: translateX( calc(-100% - var(--gap)));
+    }
+}
+
+.Magpili-scroll .language{
+    font-weight: bold;
+}
+
+.Magpili-scroll .class, .Magpili-scroll .Style{
+    font-weight: lighter;
+    margin-inline: 1px;
+}
+
+.Magpili-scroll .level{
+    margin-inline: 4px;
+    color: rgb(228, 73, 163);
 }
