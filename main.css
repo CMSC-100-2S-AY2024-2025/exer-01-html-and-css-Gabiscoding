@@ -1,21 +1,87 @@
+@font-face {
+    font-family: KnockoutCruiserweight ;
+    src: url(resource/fonts/KnockoutCruiserweight_regular.otf);
+}
+
+@font-face {
+    font-family: DealerplateCalifornia;
+    src: url(resource/fonts/DealerplateCalifornia.otf);
+}
+
+.container-1{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
 .Navbar{
     position:fixed;
-    background-color: rgb(136, 60, 60);
+    background-color: rgb(33, 33, 33);
     height: 50px;
     width: 100%;
     top:0px;
     left:0px;
-    z-index: 3;
+    border: 5px;
+    z-index: 5;
 }
+
 .Banner{
     position:absolute;
     padding: 0%;
     margin: 0%;
-    background-color: rgb(51, 51, 51);
-    justify-content: flex-start;
-    height:200px;
+    background-image: url(resource/img/BannerBg.gif);
+    background-color: rgb(33, 33, 33);
+    background-position: center;
+    background-attachment:scroll;
+    background-repeat:repeat;
+    height:fit-content;
     width:100%;
     top:0%;
     left: 0%;
     right:0%;
+}
+
+#Branding{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+
+}
+
+.NavElements{
+    display: flex;
+    float:right;
+    padding-right: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: rgb(251, 245, 229);
+    font-family: DealerplateCalifornia;
+    align-items: center;
+    margin-top: 5px;
+    /* z-index: 7; */
+}
+
+.sub-header{
+    display:flex;
+    color: rgb(251, 245, 229);
+    justify-content: center;
+    font-family: DealerplateCalifornia;
+    font-weight: 100;
+    padding-top: 50px;
+    font-size: small;
+
+}
+
+#window1{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+    background-size: cover;
+
 }
