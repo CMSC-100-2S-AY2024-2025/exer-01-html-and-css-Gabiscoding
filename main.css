@@ -152,3 +152,81 @@ body{
     margin-inline: 4px;
     color: rgb(228, 73, 163);
 }
+
+.project-box{
+    display: block;
+    padding: 1rem;
+    border-left: 3px solid rgb(251, 245, 229) ;
+    border-bottom: 3px dashed rgb(251, 245, 229);
+}
+
+.projects-container{
+    position: relative;
+    margin-top: 400px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+.project-n0{
+    color: rgb(251, 245, 229);
+    font-family: DealerplateCalifornia;
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.project-num{
+    color: rgb(251, 245, 229);
+    font-family: DealerplateCalifornia;
+    font-size: 100px;
+    margin-inline: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.innie-box{
+    display: flex;
+    align-items: baseline;
+}
+
+.innie-box-2{
+    margin-top: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.Pictures{
+    border: 2px solid rgb(251, 245, 229);
+    margin: 0%;
+    width: 300px;
+    height: auto;
+}
+
+.project-desc{
+    margin-top: 3px;
+    background-color: yellow;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid rgb(251, 245, 229);
+    display:flex;
+    font-family: BinaryNeue;
+    margin-bottom: 0%;
+}
+
+.language-used{
+    display: flex;
+    align-items:baseline;
+    justify-content: flex-end;
+    margin-top: 0%;
+    font-family: DealerplateCalifornia;
+    color:rgb(251, 245, 229);
+    font-size: 20px;
+    padding-right: 10px;
+    margin-bottom: 0%;
+}
